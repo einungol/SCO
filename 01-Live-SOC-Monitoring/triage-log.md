@@ -15,3 +15,20 @@ SOC Alert Triage Log
 *Classification: True positive - Malicious
 *Action Taken: Isolatded device, Blocked source IP
 *Time to Triag: 10 minutes
+
+# Alert 2
+*Date:12/06/2026
+*Alert Title: SQL Injection Detected
+*Severity: Hight
+*Source IP: 118.194.247.28
+*Target: WebServer1000
+
+*Hypotesis: Found Injection payload in the http request
+
+*Evidence: 
+  Source IP is flaggeed as Malicious 
+  SQL injection XSS RCE payload in the request
+  
+*Classification: True positive - Malicious
+*Action Taken: Isolatded device, escalate the case to a Tier II analyst for advanced investigation and remediation.
+*Time to Triag: 10 minutes
